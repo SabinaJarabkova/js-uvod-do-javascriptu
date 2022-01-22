@@ -24,8 +24,21 @@ function vypisMatematickeOperace(x, y){
 
 vypisMatematickeOperace (10, 5);
 
+
+// druhy sposob ked chceme vstup od uzivatela
 let x = Number(prompt('zadaj x:'));
 let y = Number(prompt('zadaj y:'));
 
 
 vypisMatematickeOperace (x, y);
+
+function obsahObdlznika (x,y) {
+  let vysledek = x *y;
+  return vysledek;
+}
+
+obsahObdlznika (x,y)
+console.log('obsah obdlznika je: ' + obsahObdlznika (x,y));
+
+let matOperace = obsahObdlznika (10,15) + obsahObdlznika (x,y);
+console.log(matOperace);
