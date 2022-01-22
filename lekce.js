@@ -16,6 +16,13 @@ console.log(pretypovanie);
 
 let jeZima = true;
 let svietiSlnko = false;
-let vysledek = jeZima && svietiSlnko
+let vysledek = jeZima && svietiSlnko //je zima a zaroven svieti slnko 
+
+//  && toto sa dava ked to ma byt "a zaroven" - vysledkom je true iba v pripade, ze vsetky tvrdenia su pravdive
 
 console.log(vysledek);
+
+// ked chcem ALEBO (aspon jedno) tak sa pouzije rovne lomitko || (2x)
+
+let vysledek2 = jeZima || svietiSlnko;
+console.log(vysledek2);
