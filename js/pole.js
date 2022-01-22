@@ -26,4 +26,3 @@ for (let i = 0; i < cisla.lenght; i++) {
   console.log(cisla[i]);
 }
 
-console.log(cisla.lenght);
