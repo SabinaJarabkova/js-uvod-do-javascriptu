@@ -1,10 +1,11 @@
 let vek = 25;
 
-if (VYRAZ) {
+/* if (VYRAZ) {
   // vykona sa tato cast kodu pokial ten vyraz je pravda
 } else {
   // tento kus kodu sa vykona pokial vyraz nie je pravda
 }
+*/
 
 if (vek < 18) {
   console.log('Není plnoletý');
