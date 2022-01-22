@@ -11,6 +11,6 @@ let hmotnost = 65;
 let vyska = 1.67;
 
 let BMI = hmotnost / (vyska**2);
-let veta = 'Jmenuji se ' + jmeno + ', je mi ' + vek + ' let' + ', vážím ' + hmotnost + ' kg, měřím ' + vyska + ' m a moje BMI je ' + BMI +'.'
+let veta = 'Jmenuji se ' + jmeno + ', je mi ' + vek + ' let, vážím ' + hmotnost + ' kg, měřím ' + vyska + ' m a moje BMI je ' + BMI +'.'
 
 console.log(veta);
