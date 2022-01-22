@@ -21,3 +21,5 @@ function vypisMatematickeOperace(x, y){
   console.log('soucet je: ' + soucet + ', rozdil je: ' + rozdil + 'nasobek je: ' + nasobek + ' a podil je: ' + podil);
 
 }
+
+vypisMatematickeOperace (10, 5);
