@@ -42,3 +42,16 @@ console.log('obsah obdlznika je: ' + obsahObdlznika (x,y));
 
 let matOperace = obsahObdlznika (10,15) + obsahObdlznika (x,y);
 console.log(matOperace);
+
+//2)
+
+function jePrvocislo (x) {
+  if (x % 2 === 1) {
+    console.log('je liche - ');
+  } else {
+    console.log('je sude - ');
+  }
+}
+
+let cislo = jePrvocislo(Number(prompt('zadaj cislo: ')));
+console.log(cislo);
