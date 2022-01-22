@@ -44,5 +44,10 @@ if (a && b) {
   console.log('Niektore z cisiel su si rovne.');
 }
 
+// dalsi sposob cez pole, ale v tomto pripade nevieme, ktore cislo je najvacsie, ci to je cislo1, cislo2 alebo cislo3...iba nam to vrati najvyssie cislo
+let najvacsieCislo = Math.max(cislo1, cislo2, cislo3);
+console.log(najvacsieCislo);
 
+let cisla = [cislo1, cislo2, cislo3];
+console.log(cisla);
 
