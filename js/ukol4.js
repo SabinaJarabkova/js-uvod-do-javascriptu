@@ -16,7 +16,7 @@
   - poznamka - pripomenout definici casti for cyklu
 */
 
-
+/*
 // 1)
 let cislo = 1;
 let soucet = 0;
@@ -24,14 +24,15 @@ let soucet = 0;
 while (cislo !== 0) {
   soucet = soucet + cislo;
   cislo = Number(prompt('Zadej cislo'));
-  console.log('Akumulovany soucet:' + soucet + ' - cislo: ' + cisl);
+  console.log('Akumulovany soucet:' + soucet + ' - cislo: ' + cislo);
 
   //if (cislo !== 0) {
     //alert ('zadali ste spatne cislo');
   }
 }
+*/
 
-
+/*
 // ked chceme napriklad overenie PINu    
 let pin = 1212;
 
@@ -43,6 +44,18 @@ while (pin) {
   }
   console.log(pin);
 }
-
+*/
 
 //2)
+// for cyklus => for (let i = 0; i < 10; i++) {
+  //console.log(i) -> vypise hodnoty 0-9
+
+// 3)
+let i = 12;
+let j = 12 ** 3;
+
+while (i < 12 + j) {
+  console.log(i);
+  i = i + 2;
+}
+
