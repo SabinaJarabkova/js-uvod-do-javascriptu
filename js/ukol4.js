@@ -19,13 +19,15 @@
 
 // 1)
 let cislo = 1;
+let soucet = 0;
 
 while (cislo !== 0) {
+  soucet = soucet + cislo;
   cislo = Number(prompt('Zadej cislo'));
-  console.log(cislo);
+  console.log('Akumulovany soucet:' + soucet + ' - cislo: ' + cisl);
 
-  if (cislo !== 0) {
-    alert ('zadali ste spatne cislo');
+  //if (cislo !== 0) {
+    //alert ('zadali ste spatne cislo');
   }
 }
 
