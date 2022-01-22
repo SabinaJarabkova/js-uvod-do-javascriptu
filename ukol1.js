@@ -19,3 +19,6 @@ let b = 10;
 let soucet = a + b;
 
 console.log(soucet);
+
+let veta = 'moje meno je ' + jmeno + ' a pracujem ako ' + povolani;
+console.log(veta);
