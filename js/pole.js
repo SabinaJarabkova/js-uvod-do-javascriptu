@@ -26,3 +26,24 @@ for (let i = 0; i < cisla.lenght; i++) {
   console.log(cisla[i]);
 }
 
+// ked chcem do pola nieoc pridat este, tak dame funkciu cisla.push(11);
+function vratSoucet (pole3) {
+  let soucet = 0;
+  for (let i = 0; i < pole.lenght; i++);
+    soucet = soucet + pole[i];
+}
+return soucet;
+}
+
+let pole2 = [];
+
+let vstup = Number(prompt('zadej cislo:'));
+
+while(vstup !== 0) }{
+  pole.push(vstup);
+  vstup = Number(prompt('zadej cislo:'));
+}
+
+let vysledek3 = vratSucet(pole2);
+
+console.log(vysledek3);
