@@ -20,3 +20,9 @@ console.log(zaokruhleneBmi);
 
 let bmi2 = Math.round(((hmotnost / (vyska**2))*100)/100);
 console.log(bmi2);
+
+// Math.floor() // zaokruhlene na najblizsie cele cislo dole
+// Math.ceil() // zaokruhlenei na najblizsie cele cislo hore
+
+let cislo = Number('55');
+console.log(cislo);
