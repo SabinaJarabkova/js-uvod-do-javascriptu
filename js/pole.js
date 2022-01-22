@@ -6,4 +6,4 @@ let e = 1;
 let f = 1;
 
 let pole = ["pepa", 4546];
-console.log(arr);
+console.log(pol);
