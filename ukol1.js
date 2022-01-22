@@ -14,4 +14,8 @@ let povolani = "programator";
 
 console.log(jmeno);
 
+let a = 5;
+let b = 10;
+let soucet = a + b;
 
+console.log(soucet);
