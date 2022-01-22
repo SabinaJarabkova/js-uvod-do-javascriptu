@@ -26,3 +26,25 @@ console.log(vysledek);
 
 let vysledek2 = jeZima || svietiSlnko;
 console.log(vysledek2);
+
+//porovnavanie
+console.log(5 === 5);
+console.log(5 === 7);
+
+console.log(5 !== 5);
+console.log(5 !== 7);
+
+console.log(1 <= 2);
+console.log(1 < 2);
+
+console.log(1 >= 2);
+console.log(1 > 2);
+
+// == najskor pretypuje a potom porovnavna
+// === nepretypuje a porovnava jak hodnotu, tak aj datovy typ
+
+// != ignoruje datovy tym, pretypuje a porovnavna
+// !== porovnava aj datovy typ a aj hodnotu, nepretypovana
+
+let vek = Number(prompt('Kolko mas rokov?'));
+console.log(vek >= 15 && vek <= 18);
