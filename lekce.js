@@ -10,6 +10,6 @@ console.log(Number(odpovedAkoCislo));
 
 // alebo druhy sposob, postupne po krokoch
 
-let odpoved = prompt('Kolko mas rokov?');
-let pretypovanie = Number(odpoved);
+let odpoved2 = prompt('Kolko mas rokov?');
+let pretypovanie = Number(odpoved2);
 console.log(pretypovanie);
