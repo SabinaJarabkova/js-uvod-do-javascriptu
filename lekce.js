@@ -13,3 +13,9 @@ console.log(Number(odpovedAkoCislo));
 let odpoved2 = prompt('Kolko mas rokov?');
 let pretypovanie = Number(odpoved2);
 console.log(pretypovanie);
+
+let jeZima = true;
+let svietiSlnko = false;
+let vysledek = jeZima && svietiSlnko
+
+console.log(vysledek);
