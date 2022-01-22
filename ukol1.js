@@ -14,5 +14,4 @@ let povolani = "programator";
 
 console.log(jmeno);
 
-let [nazev];
-let [nazev] = [hodnota];
+
