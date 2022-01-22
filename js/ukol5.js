@@ -18,7 +18,7 @@ function vypisMatematickeOperace(x, y){
   let nasobek = x * y;
   let podil = x / y;
 
-  console.log('soucet je: ' + soucet + ', rozdil je: ' + rozdil + ' ,nasobek je: ' + nasobek + ' a podil je: ' + podil);
+  console.log('soucet je: ' + soucet + ', rozdil je: ' + rozdil + ' , nasobek je: ' + nasobek + ' a podil je: ' + podil);
 
 }
 
