@@ -12,7 +12,7 @@ let vyskaMetry = 1.67;
 
 let vyskaCentimetry = vyskaMetry * 100;
 
-let BMI = hmotnost / vyskaMetry
+let BMI = hmotnost / vyskaMetry**2
 let veta = 'Jmenuji se ' + jmeno + ', je mi ' + vek + ' let' + ', vážím ' + hmotnost + ' kg, měřím ' + vyskaMetry + 'm a moje BMI je ' + BMI +'.'
 
 console.log(veta);
