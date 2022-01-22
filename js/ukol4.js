@@ -17,9 +17,16 @@
 */
 
 
+// 1)
 let cislo = 1;
 
-while (cislo != 0) {
+while (cislo !== 0) {
   cislo = Number(prompt('Zadej cislo'));
   console.log(cislo);
+
+  if (cislo !== 0) {
+    alert ('zadali ste spatne cislo');
+  }
 }
+
+//2)
