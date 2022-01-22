@@ -1,4 +1,4 @@
-let vek = 25;
+let vek = Number(prompt('Kolko mas rokov?'));
 
 /* if (VYRAZ) {
   // vykona sa tato cast kodu pokial ten vyraz je pravda
@@ -13,8 +13,8 @@ if (vek < 18) {
   console.log('Je plnoletý');
 
   if (vek >= 21) {
-    console.log ('a moze soferovat kamion');
+    console.log('a moze soferovat kamion');
   } else {
-    console.log ('a moze soferovat kamion');
+    console.log('a moze soferovat kamion');
   }
 }
