@@ -19,10 +19,11 @@ console.log(cisla[2]);
 //.
 //.
 //.
-
+//.
 
 //preto pouzijee cyklus   
 for (let i = 0; i < 4; i++) {
   console.log(cisla[i]);
 }
 
+console.log(cisla.lenght);
