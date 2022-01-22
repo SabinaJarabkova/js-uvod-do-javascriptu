@@ -16,21 +16,7 @@ let vek = Number(prompt('Kolko mas rokov?'));
 let rozdil = 18 - vek;
 
 if (vek >= 18) {
-  console.log(
-    'Vaše jméno je ' +
-      jmeno +
-      ', je vám ' +
-      vek +
-      ' let a tak máte právo řídit auto.'
-  );
+  console.log('Vaše jméno je ' + jmeno + ', je vám ' + vek + ' let a tak máte právo řídit auto.');
 } else {
-  console.log(
-    'Vaše jméno je ' +
-      jmeno +
-      ', je vám ' +
-      vek +
-      ' let a tak musíte počkat ještě ' +
-      rozdil +
-      ' let, než budete moci řídit auto.'
-  );
+  console.log('Vaše jméno je ' + jmeno + ', je vám ' + vek + ' let a tak musíte počkat ještě ' + rozdil + ' let, než budete moci řídit auto.');
 }
