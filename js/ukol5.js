@@ -46,12 +46,25 @@ console.log(matOperace);
 //2)
 
 function jePrvocislo (x) {
+  for (let i = 2; i < x; i++);
+    if (number % i == 0) {
+      isPrime = false;
+      break;
+    }
+  } return isPrime;
+} 
+
+
+
+/*
   if (x % 2 === 1) {
+    if ((x / x) && 
     console.log('je liche - ');
   } else {
     console.log('je sude - ');
   }
 }
+*/
 
 let cislo = jePrvocislo(Number(prompt('zadaj cislo: ')));
 console.log(cislo);
