@@ -18,5 +18,5 @@ console.log(veta);
 let zaokruhleneBmi = Math.round((bmi*100)/100);
 console.log(zaokruhleneBmi);
 
-let bmi2 = Math.round((hmotnost / (vyska**2))*100)/100);
+let bmi2 = Math.round(((hmotnost / (vyska**2))*100)/100);
 console.log(bmi2);
