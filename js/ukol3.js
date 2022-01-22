@@ -51,3 +51,4 @@ console.log(najvacsieCislo);
 let cisla = [cislo1, cislo2, cislo3];
 console.log(cisla);
 
+
