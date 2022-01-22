@@ -5,5 +5,5 @@ let d = 1;
 let e = 1;
 let f = 1;
 
-let pole = ["pepa", 4546];
-console.log(pol);
+let pole = ["pepa", 4546, true];
+console.log(pole[0]);
