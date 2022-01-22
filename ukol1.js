@@ -22,3 +22,6 @@ console.log(soucet);
 
 let veta = 'moje meno je ' + jmeno + ' a pracujem ako ' + povolani;
 console.log(veta);
+
+let c = a > b;
+console.log(c);
