@@ -23,3 +23,9 @@ function vypisMatematickeOperace(x, y){
 }
 
 vypisMatematickeOperace (10, 5);
+
+let x = Number(prompt('zadaj x:'));
+let y = Number(prompt('zadaj y:'));
+
+
+vypisMatematickeOperace (x, y);
