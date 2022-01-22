@@ -41,3 +41,4 @@ if (a && b) {
 } else {
   console.log ('najvacsie cislo je C: ' + cislo3);
 }
+
