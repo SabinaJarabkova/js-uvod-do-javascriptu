@@ -2,7 +2,7 @@ console.log("Ahoj");
 
 alert("POZOR!");
 
-prompt("Kolik mas let?")
+prompt("Kolik mas let?");
 
 //let // takto zacina premenna
 //var // vytvorenie premennej (ale zastarane)
