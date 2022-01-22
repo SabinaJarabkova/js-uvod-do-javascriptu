@@ -14,3 +14,6 @@ let bmi = hmotnost / (vyska**2);
 let veta = 'Jmenuji se ' + jmeno + ', je mi ' + vek + ' let, vážím ' + hmotnost + ' kg, měřím ' + vyska + ' m a moje BMI je ' + bmi +'.'
 
 console.log(veta);
+
+let zaokruhleneBmi = Math.round((bmi*100)/100);
+console.log(zaokruhleneBmi);
