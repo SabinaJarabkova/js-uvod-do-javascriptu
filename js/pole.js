@@ -10,3 +10,18 @@ console.log(pole[0]);
 
 pole[0] = "jirina";
 console.log(pole[0]);
+
+let cisla = [2541, 25 , 2574, 25425, 3555];
+
+console.log(cisla[0]);
+console.log(cisla[1]);
+console.log(cisla[2]);
+.
+.
+.
+
+//preto pouzijee cyklus   
+for (let i = 0; i < 4; i++) {
+  console.log(cisla[i]);
+}
+
