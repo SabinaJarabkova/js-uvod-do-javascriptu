@@ -38,7 +38,7 @@ if (a && b) {
   console.log ('najvacsie cislo je A: ' + cislo1);
 } else if (c && d){
   console.log ('najvacsie cislo je B: ' + cislo2);
-} else if (cislo3 > cislo, && cislo3 > cislo2) {
+} else if (cislo3 > cislo1 && cislo3 > cislo2) {
   console.log ('najvacsie cislo je C: ' + cislo3);
 } else {
   console.log('Niektore z cisiel su si rovne.');
