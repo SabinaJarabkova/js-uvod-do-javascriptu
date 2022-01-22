@@ -17,3 +17,4 @@ let osoba3 = {
 }
 
 console.log(osoba3);
+console.log(osoba3.adresa.ulica);
