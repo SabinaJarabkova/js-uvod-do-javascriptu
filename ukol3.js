@@ -20,3 +20,24 @@ if (vek >= 18) {
 } else {
   console.log('Vaše jméno je ' + jmeno + ', je vám ' + vek + ' let a tak musíte počkat ještě ' + rozdil + ' let, než budete moci řídit auto.');
 }
+
+
+
+// 2)
+let cislo1 = Number(prompt('Zadej cislo: '));
+let cislo2 = Number(prompt('Zadej cislo: '));
+let cislo3 = Number(prompt('Zadej cislo: '));
+
+let a = cislo1 > cislo2;
+let b = cislo1 > cislo3;
+
+let c = cislo2 > cislo3;
+let d = cislo2 > cislo1;
+
+if (a && b) {
+  console.log ('najvacsie cislo je: ' + cislo1);
+} else if (c && d){
+  console.log ('najvacsie cislo je: ' + cislo2);
+} else {
+  console.log ('najvacsie cislo je: ' + cislo3);
+}
