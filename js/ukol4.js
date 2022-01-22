@@ -29,4 +29,18 @@ while (cislo !== 0) {
   }
 }
 
+
+// ked chceme napriklad overenie PINu    
+let cislo = 1212;
+
+while (cislo) {
+  cislo = Number(prompt('Zadej PIN:'));
+  
+  if (cislo) {
+    alert ('zadali ste spatny PIN');
+  }
+  console.log(cislo);
+}
+
+
 //2)
