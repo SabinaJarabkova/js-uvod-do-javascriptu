@@ -31,15 +31,15 @@ while (cislo !== 0) {
 
 
 // ked chceme napriklad overenie PINu    
-let cislo = 1212;
+let pin = 1212;
 
-while (cislo) {
-  cislo = Number(prompt('Zadej PIN:'));
-  
-  if (cislo) {
+while (pin) {
+  pin = Number(prompt('Zadej PIN:'));
+
+  if (pin) {
     alert ('zadali ste spatny PIN');
   }
-  console.log(cislo);
+  console.log(pin);
 }
 
 
