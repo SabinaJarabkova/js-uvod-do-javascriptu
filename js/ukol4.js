@@ -30,6 +30,18 @@ while (cislo !== 0) {
     //alert ('zadali ste spatne cislo');
   }
 }
+
+
+TOTO  JE RIESENIE OD MARIANA: 
+let vstup = Number(prompt('Zadej cislo:));
+let soucet = 0;
+
+while (vstup !== 0){
+    soucet = soucet + vstup;
+    vstup = Number(prompt('Zadej cislo:));
+}
+
+console.log('celkovy soucet je: );
 */
 
 /*
